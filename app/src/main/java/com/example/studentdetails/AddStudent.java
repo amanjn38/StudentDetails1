@@ -100,7 +100,7 @@ public class AddStudent extends AppCompatActivity {
             MainActivity.alist.set(i,arr[i]);
         }
 
-        Intent intent2 = new Intent(this,MainActivity.class);    //starting main activity again
+        Intent intent2 = new Intent(this,Main2Activity.class);    //starting main activity again
         startActivity(intent2);
         finish();
     }
